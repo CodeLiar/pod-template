@@ -1,6 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
 
-use_frameworks!
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'http://cooder.linkdoc.com:9999/iOS/linkdoc_pods.git'
+
+install! 'cocoapods',
+  disable_input_output_paths: true,
+  generate_multiple_pod_projects: true
+
 
 platform :ios, '10.0'
 
