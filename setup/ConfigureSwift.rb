@@ -33,9 +33,9 @@ module Pod
               keep_demo = :yes
           end
 
-          if framework == :quick
-              configurator.add_pod_to_podfile "Nimble-Snapshots"
-          end
+          # if framework == :quick
+          #     configurator.add_pod_to_podfile "Nimble-Snapshots"
+          # end
       end
 
       Pod::ProjectManipulator.new({

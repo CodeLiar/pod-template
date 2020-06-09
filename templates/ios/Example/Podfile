@@ -1,6 +1,12 @@
-use_frameworks!
 
-platform :ios, '8.0'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'http://cooder.linkdoc.com:9999/iOS/linkdoc_pods.git'
+
+install! 'cocoapods',
+  disable_input_output_paths: true,
+  generate_multiple_pod_projects: true
+
+platform :ios, '10.0'
 
 target '${POD_NAME}_Example' do
   pod '${POD_NAME}', :path => '../'
