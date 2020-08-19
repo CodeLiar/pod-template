@@ -1,5 +1,4 @@
 
-source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 source 'http://cooder.linkdoc.com:9999/iOS/linkdoc_pods.git'
 
 install! 'cocoapods',
