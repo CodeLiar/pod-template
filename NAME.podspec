@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LinkDoc' => '${USER_EMAIL}' }
-  s.source           = { :git => 'http://cooder.linkdoc.com:9999/iOS/${POD_NAME}.git', :tag => s.version.to_s }
+  s.source           = { :git => 'ssh://git@cooder.linkdoc.com:2112/iOS/${POD_NAME}.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
